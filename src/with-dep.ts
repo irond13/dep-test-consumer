@@ -7,4 +7,4 @@ export const arr = [
   {a: 2, b: '2'}
 ];
 
-export const indexBy = _.indexBy(arr,  'a'); // Shouldn't compile - indexBy doesn't exist in lodash@4.x.x
+export const indexBy = _.keyBy(arr,  'a'); // Should compile - keyBy exists in lodash@4.x.x
