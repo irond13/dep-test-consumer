@@ -1,4 +1,3 @@
-/// <reference types="lodash" />
 import { lodash as _ } from 'dep-test-producer';
 export declare const test: number;
 export declare const arr: {
