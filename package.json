@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/lodash": "^3.10.2",
+    "dep-test-producer": "github:irond13/dep-test-producer",
     "lodash": "^3.10.1"
   },
   "devDependencies": {},
